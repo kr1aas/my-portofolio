@@ -28,7 +28,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
         "-A4SnbYSSNQT_46sg"       // ganti dengan public key
       )
       .then(
-        (result) => {
+        () => {
           Swal.fire({
             icon: 'success',
             title: 'Success!',
@@ -104,7 +104,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
     "/assets/Rectangle 18.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [IsAutoPlay, setIsAutoPlay] = useState(true);
+  const [, setIsAutoPlay] = useState(true);
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
@@ -160,7 +160,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
     }
   ];
 
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const [, setHoveredCard] = useState<number | null>(null);
 
   const blogData = [
     {
