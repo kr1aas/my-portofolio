@@ -92,16 +92,16 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
   };
 
   const skills = [
-    "/assets/Rectangle 9.png",
-    "/assets/Rectangle 10.png",
-    "/assets/Rectangle 11.png",
-    "/assets/Rectangle 12.png",
-    "/assets/Rectangle 13.png",
-    "/assets/Rectangle 14.png",
-    "/assets/Rectangle 15.png",
-    "/assets/Rectangle 16.png",
-    "/assets/Rectangle 17.png",
-    "/assets/Rectangle 18.png",
+    "assets/Rectangle 9.png",
+    "assets/Rectangle 10.png",
+    "assets/Rectangle 11.png",
+    "assets/Rectangle 12.png",
+    "assets/Rectangle 13.png",
+    "assets/Rectangle 14.png",
+    "assets/Rectangle 15.png",
+    "assets/Rectangle 16.png",
+    "assets/Rectangle 17.png",
+    "assets/Rectangle 18.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [, setIsAutoPlay] = useState(true);
@@ -121,7 +121,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
       id: 1,
       title: "Nusa Batik",
       description: "This application helps both enthusiasts and beginners recognize batik patterns through image uploads. After scanning, users receive insights into the history and culture behind each pattern.",
-      image: "/assets/NusaBatik.png",
+      image: "assets/NusaBatik.png",
       color: "from-orange-500 to-purple-600",
       githubLink: null,
       webLink: null
@@ -130,7 +130,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
       id: 2,
       title: "RoadScan AI",
       description: "RoadScanAI is an AI-powered application designed to assess road conditions using Mask R-CNN. It automatically detects and evaluates road damages, providing valuable insights.",
-      image: "/assets/Rectangle 40.png",
+      image: "assets/Rectangle 40.png",
       color: "from-yellow-500 to-orange-600",
       githubLink: "https://github.com/kr1aas/penilaian_jalan.git",
       webLink: "https://roadscanai.example.com"
@@ -139,7 +139,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
       id: 3,
       title: "Kita Donasi",
       description: "This application serves as a platform for donating items within Bali State Polytechnic. It enables students and staff to easily give or receive usable goods, reducing waste, and supporting sustainability on campus.",
-      image: "/assets/KitaDonasi.png",
+      image: "assets/KitaDonasi.png",
       color: "from-yellow-500 to-red-600",
       githubLink: null,
       webLink: null
@@ -148,14 +148,14 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
       id: 4,
       title: "System Amprah Bina Marga",
       description: "Amprah Management System for Bina Marga is a web-based application designed to streamline the administrative process of recording amprah activities within Bina Marga. It allows the treasurer to digitally input forms, automatically generate official documents, and print them directly.",
-      image: "/assets/Sistem amprahan Bina Marga.png",
+      image: "assets/Sistem amprahan Bina Marga.png",
       color: "from-orange-500 to-purple-600"
     },
     {
       id: 5,
       title: "Booking System Hotel",
       description: "Infinity8 Hotel offers a modern and stylish stay experience with premium facilities designed for both business and leisure travelers. Guests can enjoy spacious and comfortable rooms, a rooftop pool with a stunning view, meeting and event spaces, as well as excellent dining options.",
-      image: "/assets/Infinity8.png",
+      image: "assets/Infinity8.png",
       color: "from-yellow-500 to-orange-600"
     }
   ];
@@ -164,45 +164,45 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
 
   const blogData = [
     {
-      src: "/assets/Rectangle 48.png",
+      src: "assets/Rectangle 48.png",
       title: "Menganalisa Data dan Membuat Model Regresi spasial bike sharing di Chicago",
       category: "Data Science",
       date: "Dec 15, 2024",
       readTime: "5 min read",
-      platformIcon: "/assets/Logo Bisa Ai.png",
+      platformIcon: "assets/Logo Bisa Ai.png",
       platform: "Bisa AI",
       platformColor: "bg-blue-600",
       slug: "https://bisa.ai/portofolio/detail/NTA3MA"
     },
     {
-      src: "/assets/Rectangle 58.png",
+      src: "assets/Rectangle 58.png",
       title: "Klasifikasi Biji Kopi dengan Metode Convolutional Neural Network (CNN)",
       category: "Deep Learning",
       date: "Dec 10, 2024",
       readTime: "7 min read",
-      platformIcon: "/assets/Logo Bisa Ai.png",
+      platformIcon: "assets/Logo Bisa Ai.png",
       platform: "Bisa AI",
       platformColor: "bg-blue-600",
       slug: "https://bisa.ai/portofolio/detail/NTExMQ"
     },
     {
-      src: "/assets/Rectangle 49.png",
+      src: "assets/Rectangle 49.png",
       title: "Nusa Batik Website pendeteksi motif batik",
       category: "Web Development",
       date: "Dec 8, 2024",
       readTime: "6 min read",
-      platformIcon: "/assets/Logo Bisa Ai.png",
+      platformIcon: "assets/Logo Bisa Ai.png",
       platform: "Bisa AI",
       platformColor: "bg-blue-600",
       slug: "https://bisa.ai/portofolio/detail/NTEyNw"
     },
     {
-      src: "/assets/Rectangle 50.png",
+      src: "assets/Rectangle 50.png",
       title: "Loan Classification and Clustering with Machine Learning",
       category: "Data Science",
       date: "Dec 5, 2024",
       readTime: "4 min read",
-      platformIcon: "/assets/Logo Bisa Ai.png",
+      platformIcon: "assets/Logo Bisa Ai.png",
       platform: "Bisa AI",
       platformColor: "bg-blue-600",
       slug: "https://bisa.ai/portofolio/detail/NDY3OQ"
@@ -293,7 +293,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
       <header className="bg-white h-16 md:h-[93px] flex items-center justify-between px-4 md:px-8 lg:px-16 shadow-sm relative z-50">
         <div className="flex items-center">
           <img
-            src="/assets/KA.png"
+            src="assets/KA.png"
             alt="KA Logo"
             className="w-12 h-9 md:w-16 md:h-12"
           />
@@ -346,7 +346,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
                 {/* Menu Header */}
                 <div className="flex items-center justify-between p-6 border-b border-gray-200">
                   <img
-                    src="/assets/KA.png"
+                    src="assets/KA.png"
                     alt="KA Logo"
                     className="w-12 h-9"
                   />
@@ -436,7 +436,7 @@ export default function App({ onTrigger }: { onTrigger: () => void }) {
         <div className="flex-1 flex animate-in fade-in slide-in-from-right duration-1000 justify-center lg:justify-end order-1 lg:order-2">
           <div className="relative">
             <img
-              src="/assets/Group 9.png"
+              src="assets/profil.png"
               alt="Krisna Astika"
               className="top-[-60px] md:top-[-80px] lg:top-[-100px] left-0 w-68 h-80 md:w-80 md:h-96 lg:w-[400px] lg:h-[480px] xl:w-[500px] xl:h-[562px] object-cover"
             />
