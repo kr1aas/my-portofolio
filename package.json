@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/kr1aas/my-portofolio.git"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
