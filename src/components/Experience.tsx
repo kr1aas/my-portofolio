@@ -2,25 +2,25 @@ import React from 'react';
 
 const experiences = [
   {
-    role: "Junior Developer",
-    company: "PT. Solution Core Dev",
-    period: "Jan 2024 - Present",
-    description: "Developing and maintaining web applications using React.js and Node.js. Collaborating with cross-functional teams to deliver high-quality software solutions.",
-    tech: ["React", "Node.js", "TypeScript", "PostgreSQL"]
+    role: "Junior Web Developer",
+    company: "Bali Gatra Komunikasi",
+    period: "2025 - 2026",
+    description: "Developing and maintaining web applications, collaborating with the team to deliver high-quality digital solutions for clients.",
+    tech: ["Laravel", "PHP", "MySQL", "JavaScript"]
   },
   {
-    role: "Data Science Intern",
-    company: "Bisa AI Academy",
-    period: "Jun 2024 - Sep 2024",
-    description: "Worked on machine learning projects including image classification and regression modeling. Analyzed datasets and built predictive models.",
+    role: "Web Developer (Magang)",
+    company: "PUPR Bina Marga",
+    period: "Agu 2024 - Feb 2025",
+    description: "Developed and maintained web-based systems for road infrastructure management. Built administrative applications to streamline data recording and document generation.",
+    tech: ["Laravel", "PHP", "MySQL", "Bootstrap"]
+  },
+  {
+    role: "Data Scientist (Studi Independent)",
+    company: "Bisa AI",
+    period: "Feb 2024 - Jul 2024",
+    description: "Completed an independent study program focused on data science. Worked on machine learning projects including spatial regression, image classification, and loan data analysis.",
     tech: ["Python", "TensorFlow", "Scikit-learn", "Pandas"]
-  },
-  {
-    role: "Web Developer Intern",
-    company: "Bali State Polytechnic",
-    period: "Jan 2023 - Jun 2023",
-    description: "Built internal web applications for academic administration. Improved system efficiency through automation and modern web technologies.",
-    tech: ["Laravel", "MySQL", "Bootstrap", "JavaScript"]
   }
 ];
 
