@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import UnderConstruction from "./UnderConstruction.tsx";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function Main() {
   const [showUnder, setShowUnder] = useState(false);
@@ -18,6 +19,7 @@ function Main() {
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Main />
+    <SpeedInsights />
   </StrictMode>
 );
 

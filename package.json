@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist -r https://github.com/kr1aas/my-portofolio.git"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
