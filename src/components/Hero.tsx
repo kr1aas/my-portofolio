@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           </p>
         </div>
         <a
-          href="assets\CV-I Gede Krisna Astika Nanda2.pdf"
+          href="assets\CV-I Gede Krisna Astika Nanda 2.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-portfolio-orange animate-in fade-in slide-in-from-bottom duration-1000 text-white px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl text-lg md:text-xl lg:text-2xl hover:bg-opacity-90 transition-all"
